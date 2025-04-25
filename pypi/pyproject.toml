@@ -4,7 +4,7 @@ build-backend = "poetry.core.masonry.api"
 
 [tool.poetry]
 name = "che168"
-version = "1.0.10"
+version = "1.0.11"
 description = "Official Python client parser for the Carapis Che168 API. Access real-time vehicle data via a powerful REST API. (Che168)"
 authors = ["Carapis.com <info@carapis.com>"]
 license = "MIT"

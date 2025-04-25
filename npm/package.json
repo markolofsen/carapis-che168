@@ -1,6 +1,6 @@
 {
     "name": "che168",
-    "version": "1.0.10",
+    "version": "1.0.11",
     "description": "Official TypeScript client parser for the Carapis Che168 API. Access real-time vehicle data via a powerful REST API. (Che168)",
     "main": "dist/index.js",
     "types": "dist/index.d.ts",
