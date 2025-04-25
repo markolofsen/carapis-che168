@@ -1,12 +1,12 @@
 {
     "name": "che168",
-    "version": "1.0.11",
+    "version": "1.0.12",
     "description": "Official TypeScript client parser for the Carapis Che168 API. Access real-time vehicle data via a powerful REST API. (Che168)",
     "main": "dist/index.js",
     "types": "dist/index.d.ts",
     "repository": {
         "type": "git",
-        "url": "https://github.com/markolofsen/carapis-che168-npm"
+        "url": "https://github.com/markolofsen/carapis-che168"
     },
     "documentation": "https://carapis.com/docs",
     "keywords": [
@@ -27,7 +27,7 @@
     "author": "Carapis.com <info@carapis.com> (https://carapis.com/)",
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/markolofsen/carapis-che168-npm/issues"
+        "url": "https://github.com/markolofsen/carapis-che168/issues"
     },
     "homepage": "https://carapis.com/",
     "files": [
