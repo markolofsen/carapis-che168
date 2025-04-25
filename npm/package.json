@@ -1,0 +1,54 @@
+{
+    "name": "che168",
+    "version": "1.0.10",
+    "description": "Official TypeScript client parser for the Carapis Che168 API. Access real-time vehicle data via a powerful REST API. (Che168)",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/markolofsen/carapis-che168-npm"
+    },
+    "documentation": "https://carapis.com/docs",
+    "keywords": [
+        "che168",
+        "che168_api",
+        "carapis",
+        "car_data",
+        "vehicle_data",
+        "used_car_api",
+        "client",
+        "parser",
+        "automotive",
+        "Che168",
+        "nodejs",
+        "typescript",
+        "ts"
+    ],
+    "author": "Carapis.com <info@carapis.com> (https://carapis.com/)",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/markolofsen/carapis-che168-npm/issues"
+    },
+    "homepage": "https://carapis.com/",
+    "files": [
+        "dist",
+        "src",
+        "LICENSE",
+        "README.md"
+    ],
+    "dependencies": {
+        "axios": "^1.6.0",
+        "js-yaml": "^4.1.0"
+    },
+    "devDependencies": {
+        "@types/js-yaml": "^4.0.0",
+        "@types/node": "^20.0.0",
+        "rimraf": "^5.0.0",
+        "typescript": "^5.0.0"
+    },
+    "scripts": {
+        "clean": "rimraf dist",
+        "build": "npm run clean && tsc",
+        "prepublishOnly": "npm run build"
+    }
+}
